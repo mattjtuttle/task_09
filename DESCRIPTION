@@ -5,7 +5,7 @@ Version: 0.1.0
 Author: person("Tuttle", "Matthew", email = "mtuttle4@vols.utk.edu", role = c("aut", "cre"))
 Maintainer: The package maintainer <mtuttle4@vols.utk.edu>
 Description:
-  This is a simple one function package. It contains the function add2() which adds two numbers together.
+  This is a simple package containing the function add2. This function adds two numbers together.
 License: CC0
 Encoding: UTF-8
 LazyData: true
