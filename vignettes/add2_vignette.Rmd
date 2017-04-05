@@ -1,0 +1,26 @@
+---
+title: "Introduction to add2"
+author: "Matthew Tuttle"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+This document is meant to introduce you to the functionality of the task09 package. The task09 package was created as part of Task_09 for the class GEOL 590 at The University of Tennessee Knoxville.
+
+## Adding two numbers with `add2`
+
+`add2` is a simple function that allows you to add any two numbers together. These numbers are input into the function as arguments.
+
+## Example:
+
+Let's try adding the numbers 5 and 7,
+
+```{r}
+task09::add2(5, 7)
+
+```
+which as shown above add up to 12!
